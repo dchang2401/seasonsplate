@@ -191,6 +191,8 @@ strong {
   width: 50%;
 }
 
+
+
 .timeline-container::after {
   content: '';
   position: absolute;
@@ -276,6 +278,122 @@ strong {
   }
 }
 
+.mycustom {
+  text-align:left;
+  width: 100%;
+}
+
+.mycustomcon {
+width: 100%;
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 2fr;
+ column-gap: 140px;
+}
+
+.myitem{
+  text-align: left;
+}
+
+.mycontainer {
+  width: 2000px;
+  height: 20px;
+}
+
+.imagem {
+  max-width: 100%;
+  max-height:100%;
+}
+
+.owl-carousel .owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+body, html {
+    height 100%
+    margin: 0%
+    overflow: hidden;
+}
+
+.containerforimage {
+  width: 1500px;
+  height: 1500px;
+}
+
+
+.zoom-background-backup {
+    position: absolute;ssss
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: zoomIn 10s infinite alternate;
+  }
+
+.zoom-background {
+    height: 1300px;
+    width: 1800px;
+    background-image: url('../images/imagebackground.jpg');
+  background-size: 150% 150%;
+  background-position: center;
+  animation: shrink 15s infinite alternate;
+
+    }
+
+.hero-sectionnew {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-end; 
+  align-items: center; 
+  min-height: 65vh; /* Keep this for fallback */
+}
+
+.hero-container {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    margin-top: 20%;
+    font-family: Arial, sans-serif;
+}
+
+@keyframes shrink {
+    0% {
+        /*transform: scale(1);*/
+        background-size: 120% 120%;
+    }
+    100% {
+        /* transform: scale (1.2); */
+        background-size: 100% 100%;
+    }
+}
+
+
+}
 
 /*---------------------------------------
   CUSTOM BUTTON               
@@ -535,7 +653,7 @@ strong {
   text-align: center;
 }
 
-.hero-section::after {
+/*.hero-section::after {
   background-color: rgba(0, 0, 0, 0.65);
   border-radius: var(--border-radius-medium);
   content: "";
@@ -547,7 +665,7 @@ strong {
   height: 350px;
   pointer-events: none;
 }
-
+*/
 @media screen and (min-width: 991px) {
   .hero-section {
     height: 100vh;
@@ -556,6 +674,20 @@ strong {
 
 .hero-section h1 {
   color: var(--white-color);
+}
+
+.hero-sectionnew h1 {
+  font-size: 100px;
+}
+
+.hero-sectionnew h2 {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.hero-sectionnew p {
+  font-size: 30px;
+  color: #ffffff;
 }
 
 .small-text {
