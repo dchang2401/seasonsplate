@@ -690,6 +690,11 @@ body, html {
   color: #ffffff;
 }
 
+.mycustom p {
+  font-size: 27px;
+  color: #ffffff;
+}
+
 .small-text {
   color: var(--secondary-color);
 }
