@@ -905,14 +905,6 @@ body, html {
   border-top-color: rgba(255, 255, 255, 0.35) !important;
 }
 
-.reviews-block-image-wrap {
-  background-image: url('../images/mid-section-waitress-wiping-espresso-machine-with-napkin-cafa-c.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 30px;
-}
-
 .reviews-block-image {
   border-radius: var(--border-radius-large);
   width: 65px;
